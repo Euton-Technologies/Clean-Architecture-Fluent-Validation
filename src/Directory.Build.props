@@ -1,0 +1,39 @@
+<Project>
+  <PropertyGroup>
+    <Version Condition="$(Version) == ''">0.0.0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Product>Validation Rules Generator</Product>
+    <Authors>EutonTechnologies authors and contributors</Authors>
+    <Company>Euton Technologies LLC</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/Euton-Technologies/Clean-Architecture-Fluent-Validation</PackageProjectUrl>
+    <PackageReleaseNotes>Release notes: https://github.com/Euton-Technologies/Clean-Architecture-Fluent-Validation/releases/$(PackageVersion)</PackageReleaseNotes>
+    <PackageTags>GraphQL FluentValidation</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <RepositoryUrl>https://github.com/Euton-Technologies/Clean-Architecture-Fluent-Validation.git</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.0" PrivateAssets="All"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\LICEN*" Pack="true" PackagePath="" Visible="false" />
+  </ItemGroup>
+
+</Project>
