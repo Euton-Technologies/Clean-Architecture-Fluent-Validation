@@ -1,10 +1,10 @@
-﻿using EutonTechnologies.ValidatonRules.Types;
-using EutonTechnologies.ValidatonRules.Types.Analyzers;
+using CleanArchitecture.ValidatonRules.Types;
+using CleanArchitecture.ValidatonRules.Types.Analyzers;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using System.Reflection;
 
-namespace EutonTechnologies.ValidationRules.Types.Analyzers.UnitTests.Helpers
+namespace CleanArchitecture.ValidationRules.Types.Analyzers.UnitTests.Helpers
 {
     public static class TestHelper
     {

@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -6,9 +6,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-	<PackageId>EutonTechnologies.ValidationRules.Types</PackageId>
-	<AssemblyName>EutonTechnologies.ValidationRules.Types</AssemblyName>
-	<RootNamespace>EutonTechnologies.ValidationRules.Types</RootNamespace>
+	<PackageId>CleanArchitecture.ValidationRules.Types</PackageId>
+	<AssemblyName>CleanArchitecture.ValidationRules.Types</AssemblyName>
+	<RootNamespace>CleanArchitecture.ValidationRules.Types</RootNamespace>
 	<Description>This package simply provides the attribute used by the source generator for persistence entity validation.</Description>
 	<Version>1.0.1</Version>
   </PropertyGroup>

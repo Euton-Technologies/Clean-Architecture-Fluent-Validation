@@ -2,7 +2,7 @@ using MoviesExample.Application.Common.Interfaces;
 using MediatR;
 using MoviesExample.Application.Common.Models;
 using MoviesExample.Application.Genres.Models;
-using EutonTechnologies.ValidationRules.Types;
+using CleanArchitecture.ValidationRules.Types;
 
 namespace MoviesExample.Application.Genres.Commands.UpdateGenre;
 

@@ -1,10 +1,10 @@
-﻿using EutonTechnologies.ValidatonRules.Types.Analyzers.Models;
+using CleanArchitecture.ValidatonRules.Types.Analyzers.Models;
 using Microsoft.CodeAnalysis.Text;
 using Microsoft.CodeAnalysis;
 using System.Text;
-using static EutonTechnologies.ValidatonRules.Types.Analyzers.StringConstants;
+using static CleanArchitecture.ValidatonRules.Types.Analyzers.StringConstants;
 
-namespace EutonTechnologies.ValidatonRules.Types.Analyzers.Helpers
+namespace CleanArchitecture.ValidatonRules.Types.Analyzers.Helpers
 {
     /// <summary>
     /// Generates the actual code from the validation modules/rules

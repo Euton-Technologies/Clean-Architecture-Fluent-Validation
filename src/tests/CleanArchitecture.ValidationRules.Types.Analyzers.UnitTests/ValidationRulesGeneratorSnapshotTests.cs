@@ -1,6 +1,6 @@
-using EutonTechnologies.ValidationRules.Types.Analyzers.UnitTests.Helpers;
+using CleanArchitecture.ValidationRules.Types.Analyzers.UnitTests.Helpers;
 
-namespace EutonTechnologies.ValidationRules.Types.Analyzers.UnitTests
+namespace CleanArchitecture.ValidationRules.Types.Analyzers.UnitTests
 {
 
     [UsesVerify]
@@ -13,7 +13,7 @@ namespace EutonTechnologies.ValidationRules.Types.Analyzers.UnitTests
             string source = @"
 using System;
 using System.ComponentModel.DataAnnotations;
-using EutonTechnologies.ValidatonRules.Types;
+using CleanArchitecture.ValidatonRules.Types;
 
 namespace RandomNamespace.Dtos;
 
@@ -66,7 +66,7 @@ public class CreateMovieCommand
         public Task MismatchTypeCorrected()
         {
             string source = @"
-using EutonTechnologies.ValidatonRules.Types;
+using CleanArchitecture.ValidatonRules.Types;
 using Newtonsoft.Json;
 using System.ComponentModel.DataAnnotations;
 
@@ -105,7 +105,7 @@ public class CreateMovieCommand
         public Task Record()
         {
             string source = @"
-using EutonTechnologies.ValidatonRules.Types;
+using CleanArchitecture.ValidatonRules.Types;
 using System.ComponentModel.DataAnnotations;
 
 namespace RandomNamespace.Dtos;
@@ -130,7 +130,7 @@ public record CreateMovieCommand(string Name);
         public Task Inheritance()
         {
             string source = @"
-using EutonTechnologies.ValidatonRules.Types;
+using CleanArchitecture.ValidatonRules.Types;
 using System.ComponentModel.DataAnnotations;
 
 namespace RandomNamespace.Dtos;

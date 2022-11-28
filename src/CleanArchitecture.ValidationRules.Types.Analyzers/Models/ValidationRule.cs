@@ -1,4 +1,4 @@
-﻿namespace EutonTechnologies.ValidatonRules.Types.Analyzers.Models
+namespace CleanArchitecture.ValidatonRules.Types.Analyzers.Models
 {
     /// <summary>
     /// Validation rule used to map a data annotation from a persistence layer object to create a Fluent Validation Rule

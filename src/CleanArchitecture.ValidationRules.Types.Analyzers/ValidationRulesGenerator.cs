@@ -1,5 +1,5 @@
-﻿using EutonTechnologies.ValidatonRules.Types.Analyzers.Helpers;
-using EutonTechnologies.ValidatonRules.Types.Analyzers.Models;
+using CleanArchitecture.ValidatonRules.Types.Analyzers.Helpers;
+using CleanArchitecture.ValidatonRules.Types.Analyzers.Models;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
@@ -7,7 +7,7 @@ using System.Collections.Immutable;
 using System.Diagnostics;
 using System.Reflection;
 
-namespace EutonTechnologies.ValidatonRules.Types.Analyzers
+namespace CleanArchitecture.ValidatonRules.Types.Analyzers
 {
     /// <summary>
     /// Validation Rules Generator is a Source Generator that will create a FluentValidation rule when it finds the Extend Validation Attribute.
