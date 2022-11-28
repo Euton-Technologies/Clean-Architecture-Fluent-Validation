@@ -10,6 +10,7 @@
 	<AssemblyName>EutonTechnologies.ValidationRules.Types</AssemblyName>
 	<RootNamespace>EutonTechnologies.ValidationRules.Types</RootNamespace>
 	<Description>This package simply provides the attribute used by the source generator for persistence entity validation.</Description>
+	<Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

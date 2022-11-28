@@ -1,7 +1,6 @@
 <Project>
   <PropertyGroup>
 	<TargetFrameworks>net6.0</TargetFrameworks>
-	<Version>1.0.1</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
