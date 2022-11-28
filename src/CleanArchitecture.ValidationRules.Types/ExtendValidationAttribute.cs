@@ -1,4 +1,4 @@
-﻿namespace EutonTechnologies.ValidationRules.Types
+namespace CleanArchitecture.ValidationRules.Types
 {
     /// <summary>
     /// Attribute for marking a data transfer object for mapping to a persistence layer object.

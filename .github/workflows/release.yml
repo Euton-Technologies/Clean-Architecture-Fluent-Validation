@@ -31,10 +31,10 @@ jobs:
     - name: Publish  
       uses: brandedoutcast/publish-nuget@v2.5.2  
       with:   
-       PROJECT_FILE_PATH: src/EutonTechnologies.ValidationRules.Types/EutonTechnologies.ValidationRules.Types.csproj
+       PROJECT_FILE_PATH: src/CleanArchitecture.ValidationRules.Types/CleanArchitecture.ValidationRules.Types.csproj
        NUGET_KEY: ${{secrets.NUGET_API_KEY}} 
     - name: Publish  
       uses: brandedoutcast/publish-nuget@v2.5.2  
       with:   
-       PROJECT_FILE_PATH: src/EutonTechnologies.ValidationRules.Types.Analyzers/EutonTechnologies.ValidationRules.Types.Analyzers.csproj
+       PROJECT_FILE_PATH: src/CleanArchitecture.ValidationRules.Types.Analyzers/CleanArchitecture.ValidationRules.Types.Analyzers.csproj
        NUGET_KEY: ${{secrets.NUGET_API_KEY}} 

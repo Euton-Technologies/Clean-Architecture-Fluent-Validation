@@ -1,4 +1,4 @@
-﻿namespace EutonTechnologies.ValidatonRules.Types.Analyzers.Models
+namespace CleanArchitecture.ValidatonRules.Types.Analyzers.Models
 {
     /// <summary>
     /// This represents a data transfer object that maps a persistence layer object.  

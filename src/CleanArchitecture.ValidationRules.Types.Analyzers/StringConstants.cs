@@ -1,4 +1,4 @@
-﻿namespace EutonTechnologies.ValidatonRules.Types.Analyzers
+namespace CleanArchitecture.ValidatonRules.Types.Analyzers
 {
     internal static class StringConstants
     {
