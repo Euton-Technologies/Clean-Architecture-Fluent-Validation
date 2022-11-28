@@ -1,5 +1,5 @@
 ﻿using System.Runtime.CompilerServices;
-using VerifyXunit;
+using VerifyTests;
 
 namespace EutonTechnologies.ValidationRules.Types.Analyzers.UnitTests
 {
