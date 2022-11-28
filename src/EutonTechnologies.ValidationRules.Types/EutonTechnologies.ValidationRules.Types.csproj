@@ -1,9 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+	<PackageId>EutonTechnologies.ValidationRules.Types</PackageId>
+	<AssemblyName>EutonTechnologies.ValidationRules.Types</AssemblyName>
+	<RootNamespace>EutonTechnologies.ValidationRules.Types</RootNamespace>
+	<Description>This package simply provides the attribute used by the source generator for persistence entity validation.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="1.1.1" />
+  </ItemGroup>
 </Project>
