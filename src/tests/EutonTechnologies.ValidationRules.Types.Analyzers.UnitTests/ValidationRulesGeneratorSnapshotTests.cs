@@ -1,5 +1,4 @@
 using EutonTechnologies.ValidationRules.Types.Analyzers.UnitTests.Helpers;
-using VerifyXunit;
 
 namespace EutonTechnologies.ValidationRules.Types.Analyzers.UnitTests
 {
