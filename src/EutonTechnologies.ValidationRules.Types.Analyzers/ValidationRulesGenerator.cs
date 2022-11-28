@@ -18,10 +18,6 @@ namespace EutonTechnologies.ValidatonRules.Types.Analyzers
     {
         public void Initialize(IncrementalGeneratorInitializationContext context)
         {
-            if (!Debugger.IsAttached)
-            {
-                Debugger.Break();
-            }
             IncrementalValuesProvider<ValidationRuleInfo> declarations = context.SyntaxProvider
             .CreateSyntaxProvider(
                 predicate: static (s, _) => IsSyntaxTargetForGeneration(s),
