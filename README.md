@@ -4,12 +4,12 @@ Source Generator to automatically validate persistence layer data annotations wi
 ## Overview
 This source generator was inspired by Clean Architecture.  One of the problems that we have encountered is needing to have both database constraints and input constraints.  We wouldn't want to create a database with a string with no max length when the field calls for only a few characters.  We also wouldn't want to have to keep both the persistence entity and the data transfer object in sync for these max character lengths.  
 
-So EutonTechnologies.ValidatonRules.Types.Analyzers was born and it will automatically generate the Fluent Validation files that you can call to validate the persistence layer's object.  In order to allow for the most flexibility, Fluent Validation's abstract validator isn't generated automatically but rather the rules that can be easily called by your AbstractValdiator for the dto.  See Usage for more information.
+So CleanArchitecture.ValidatonRules.Types.Analyzers was born and it will automatically generate the Fluent Validation files that you can call to validate the persistence layer's object.  In order to allow for the most flexibility, Fluent Validation's abstract validator isn't generated automatically but rather the rules that can be easily called by your AbstractValdiator for the dto.  See Usage for more information.
 
 ## Installation
 
 ```bash
-$> dotnet add package EutonTechnologies.ValidationRules.Types.Analyzers
+$> dotnet add package CleanArchitecture.ValidationRules.Types.Analyzers
 ```
 
 ## Usage
@@ -71,4 +71,4 @@ If you are having problems, please let us know by [raising a new issue](https://
 
 ## License
 
-This project is licensed with the [MIT license](LICENSE).
+This project is licensed with the [MIT license](https://github.com/Euton-Technologies/Clean-Architecture-Fluent-Validation/blob/main/LICENSE).

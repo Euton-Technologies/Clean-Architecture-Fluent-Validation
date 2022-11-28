@@ -2,7 +2,7 @@ using MoviesExample.Application.Common.Interfaces;
 using MediatR;
 using MoviesExample.Application.Common.Models;
 using MoviesExample.Application.Movies.Models;
-using EutonTechnologies.ValidationRules.Types;
+using CleanArchitecture.ValidationRules.Types;
 
 namespace MoviesExample.Application.Movies.Commands.UpdateMovie;
 

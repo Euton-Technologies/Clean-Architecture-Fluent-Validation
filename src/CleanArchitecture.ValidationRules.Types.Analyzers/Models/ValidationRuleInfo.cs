@@ -1,4 +1,4 @@
-﻿namespace EutonTechnologies.ValidatonRules.Types.Analyzers.Models
+namespace CleanArchitecture.ValidatonRules.Types.Analyzers.Models
 {
     /// <summary>
     /// Validation Rule Info to map data transfer objects and persistence layer objects

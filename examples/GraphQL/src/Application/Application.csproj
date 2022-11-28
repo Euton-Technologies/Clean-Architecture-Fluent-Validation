@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
@@ -28,14 +28,14 @@
         <Compile Remove="../Domain/obj/**/*.cs" />
     </ItemGroup>
     <ItemGroup>
-      <None Include="Generated\EutonTechnologies.ValidationRules.Types.Analyzers\EutonTechnologies.ValidatonRules.Types.Analyzers.ValidationRulesGenerator\CreateGenreCommand.g.cs" />
-      <None Include="Generated\EutonTechnologies.ValidationRules.Types.Analyzers\EutonTechnologies.ValidatonRules.Types.Analyzers.ValidationRulesGenerator\CreateMovieCommand.g.cs" />
-      <None Include="Generated\EutonTechnologies.ValidationRules.Types.Analyzers\EutonTechnologies.ValidatonRules.Types.Analyzers.ValidationRulesGenerator\UpdateGenreCommand.g.cs" />
-      <None Include="Generated\EutonTechnologies.ValidationRules.Types.Analyzers\EutonTechnologies.ValidatonRules.Types.Analyzers.ValidationRulesGenerator\UpdateMovieCommand.g.cs" />
+      <None Include="Generated\CleanArchitecture.ValidationRules.Types.Analyzers\CleanArchitecture.ValidatonRules.Types.Analyzers.ValidationRulesGenerator\CreateGenreCommand.g.cs" />
+      <None Include="Generated\CleanArchitecture.ValidationRules.Types.Analyzers\CleanArchitecture.ValidatonRules.Types.Analyzers.ValidationRulesGenerator\CreateMovieCommand.g.cs" />
+      <None Include="Generated\CleanArchitecture.ValidationRules.Types.Analyzers\CleanArchitecture.ValidatonRules.Types.Analyzers.ValidationRulesGenerator\UpdateGenreCommand.g.cs" />
+      <None Include="Generated\CleanArchitecture.ValidationRules.Types.Analyzers\CleanArchitecture.ValidatonRules.Types.Analyzers.ValidationRulesGenerator\UpdateMovieCommand.g.cs" />
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\..\..\..\src\EutonTechnologies.ValidationRules.Types.Analyzers\EutonTechnologies.ValidationRules.Types.Analyzers.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
-      <ProjectReference Include="..\..\..\..\src\EutonTechnologies.ValidationRules.Types\EutonTechnologies.ValidationRules.Types.csproj" />
+      <ProjectReference Include="..\..\..\..\src\CleanArchitecture.ValidationRules.Types.Analyzers\CleanArchitecture.ValidationRules.Types.Analyzers.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+      <ProjectReference Include="..\..\..\..\src\CleanArchitecture.ValidationRules.Types\CleanArchitecture.ValidationRules.Types.csproj" />
     </ItemGroup>
 
 </Project>

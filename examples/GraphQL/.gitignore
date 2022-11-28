@@ -238,4 +238,4 @@ _Pvt_Extensions
 src/WebUI/ClientApp/package-lock.json
 
 src/Application/Generated/**/*.g.cs
-!src/Application/Generated/EutonTechnologies.ValidationRules.Types.Analyzers/*/*.g.cs
+!src/Application/Generated/CleanArchitecture.ValidationRules.Types.Analyzers/*/*.g.cs

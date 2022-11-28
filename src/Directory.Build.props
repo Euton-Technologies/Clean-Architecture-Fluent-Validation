@@ -10,12 +10,12 @@
 
   <PropertyGroup>
     <Product>Validation Rules Generator</Product>
-    <Authors>EutonTechnologies authors and contributors</Authors>
+    <Authors>CleanArchitecture authors and contributors</Authors>
     <Company>Euton Technologies LLC</Company>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/Euton-Technologies/Clean-Architecture-Fluent-Validation</PackageProjectUrl>
     <PackageReleaseNotes>Release notes: https://github.com/Euton-Technologies/Clean-Architecture-Fluent-Validation/releases/$(PackageVersion)</PackageReleaseNotes>
-    <PackageTags>GraphQL FluentValidation</PackageTags>
+    <PackageTags>CleanArchitecture GraphQL FluentValidation</PackageTags>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 

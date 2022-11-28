@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -30,9 +30,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "src\WebApi\WebApi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source Generators", "Source Generators", "{AA785445-3DCB-4246-B491-7FC18CC74AD5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EutonTechnologies.ValidationRules.Types", "..\..\src\EutonTechnologies.ValidationRules.Types\EutonTechnologies.ValidationRules.Types.csproj", "{88D72818-17EF-4B15-8083-7CF799F73789}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.ValidationRules.Types", "..\..\src\CleanArchitecture.ValidationRules.Types\CleanArchitecture.ValidationRules.Types.csproj", "{88D72818-17EF-4B15-8083-7CF799F73789}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EutonTechnologies.ValidationRules.Types.Analyzers", "..\..\src\EutonTechnologies.ValidationRules.Types.Analyzers\EutonTechnologies.ValidationRules.Types.Analyzers.csproj", "{878DBFBE-A770-4443-8437-31AB3314EC48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.ValidationRules.Types.Analyzers", "..\..\src\CleanArchitecture.ValidationRules.Types.Analyzers\CleanArchitecture.ValidationRules.Types.Analyzers.csproj", "{878DBFBE-A770-4443-8437-31AB3314EC48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

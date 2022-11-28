@@ -1,7 +1,7 @@
-﻿using System.Runtime.CompilerServices;
+using System.Runtime.CompilerServices;
 using VerifyTests;
 
-namespace EutonTechnologies.ValidationRules.Types.Analyzers.UnitTests
+namespace CleanArchitecture.ValidationRules.Types.Analyzers.UnitTests
 {
     public static class ModuleInitializer
     {

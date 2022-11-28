@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
 	  <TargetFrameworks>netstandard2.0</TargetFrameworks>
@@ -17,9 +17,9 @@
   </ItemGroup>
 
   <PropertyGroup>
-	<PackageId>EutonTechnologies.ValidationRules.Types.Analyzers</PackageId>
-	<AssemblyName>EutonTechnologies.ValidationRules.Types.Analyzers</AssemblyName>
-	<RootNamespace>EutonTechnologies.ValidationRules.Types.Analyzers</RootNamespace>
+	<PackageId>CleanArchitecture.ValidationRules.Types.Analyzers</PackageId>
+	<AssemblyName>CleanArchitecture.ValidationRules.Types.Analyzers</AssemblyName>
+	<RootNamespace>CleanArchitecture.ValidationRules.Types.Analyzers</RootNamespace>
 	<Description>This package provides source generators for persistence entity validation.</Description>
 	<Version>1.0.1</Version>
   </PropertyGroup>

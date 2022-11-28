@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -24,8 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\EutonTechnologies.ValidationRules.Types.Analyzers\EutonTechnologies.ValidationRules.Types.Analyzers.csproj" />
-    <ProjectReference Include="..\..\EutonTechnologies.ValidationRules.Types\EutonTechnologies.ValidationRules.Types.csproj" />
+    <ProjectReference Include="..\..\CleanArchitecture.ValidationRules.Types.Analyzers\CleanArchitecture.ValidationRules.Types.Analyzers.csproj" />
+    <ProjectReference Include="..\..\CleanArchitecture.ValidationRules.Types\CleanArchitecture.ValidationRules.Types.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Snapshots\" />
